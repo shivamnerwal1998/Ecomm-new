@@ -16,7 +16,7 @@ console.log("Data base connected ");
   })
 
 // app is using roujte Moduke 
-app.use(userRoutes);
+app.use("/",userRoutes);
 
 
 // port configuration
